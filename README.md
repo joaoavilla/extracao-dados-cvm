@@ -12,10 +12,14 @@ O propósito deste repositório é oferecer uma forma transparente, reprodutíve
 
   * APIs instáveis ou documentações incompletas.
 
-> * A partir deste notebook, qualquer usuário pode gerar sua própria base de dados histórica, cobrindo mais de uma década de demonstrações contábeis, de forma padronizada e pronta para análise.
-> * Abaixo, é possível acessar o Google Colab em qualquer dispositivo - não sendo necessário baixar nada.
-> * O notebook foi projetado para ser executado via web, eliminando a necessidade de instalação local de Python ou bibliotecas.
-> * Por fim, é possível baixar um conjunto completo e padronizado de demonstrativos financeiros da CVM
+A proposta é permitir que qualquer usuário gere sua própria base histórica de demonstrativos contábeis (2010–2024), de forma padronizada e consistente, sem intermediários.
+
+## Como utilizar
+
+> * O notebook principal realiza automaticamente o download, leitura, tratamento e exportação dos demonstrativos DFP.
+> * A execução ocorre diretamente no Google Colab, em qualquer dispositivo, sem necessidade de instalar Python, bibliotecas ou ferramentas adicionais.
+> * Ao final, o usuário pode baixar um conjunto completo de arquivos .csv contendo os demonstrativos tratados (DRE, BPA, BPP, DFC_MI, DFC_MD).
+> * Os arquivos podem ser analisados no próprio Colab ou exportados para Excel, Google Sheets, R, Python ou qualquer outra ferramenta de análise.
 
 
 ## ▶️ Executar no Google Colab
