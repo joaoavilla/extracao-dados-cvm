@@ -12,10 +12,10 @@ O propósito deste repositório é oferecer uma forma transparente, reprodutíve
 
   * APIs instáveis ou documentações incompletas.
 
-> A partir deste notebook, qualquer usuário pode gerar sua própria base de dados histórica, cobrindo mais de uma década de demonstrações contábeis, de forma padronizada e pronta para análise.
-> Abaixo, é possível acessar o Google Colab em qualquer dispositivo - não sendo necessário baixar nada.
-> O notebook foi projetado para ser executado via web, eliminando a necessidade de instalação local de Python ou bibliotecas.
-> Por fim, é possível baixar um conjunto completo e padronizado de demonstrativos financeiros da CVM
+> * A partir deste notebook, qualquer usuário pode gerar sua própria base de dados histórica, cobrindo mais de uma década de demonstrações contábeis, de forma padronizada e pronta para análise.
+> * Abaixo, é possível acessar o Google Colab em qualquer dispositivo - não sendo necessário baixar nada.
+> * O notebook foi projetado para ser executado via web, eliminando a necessidade de instalação local de Python ou bibliotecas.
+> * Por fim, é possível baixar um conjunto completo e padronizado de demonstrativos financeiros da CVM
 
 
 ## ▶️ Executar no Google Colab
