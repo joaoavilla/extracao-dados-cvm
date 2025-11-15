@@ -1,5 +1,10 @@
 # extracao-dados-cvm
-Repositório dedicado a extração de dados DFP de CIAS abertas disponibilizadas via CVM 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-[https://colab.research.google.com/github/joaoavilla/cvm_dfp_b3/blob/main/notebooks/DFP_2010_2024.ipynb](https://colab.research.google.com/github/joaoavilla/extracao-dados-cvm/blob/main/notebooks/extracao_dados_cvm.ipynb))
+
+Repositório dedicado à extração de dados DFP de CIAS abertas disponibilizadas via CVM.
+
+## ▶️ Executar no Google Colab
+
+Clique abaixo para abrir o notebook automaticamente no Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joaoavilla/extracao-dados-cvm/blob/main/notebooks/extracao_dados_cvm.ipynb)
 
