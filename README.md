@@ -1,6 +1,6 @@
-# extracao-dados-cvm
+# Extracao-dados-cvm
 
-Repositório dedicado à extração de dados DFP de CIAS abertas disponibilizadas via CVM.
+Repositório dedicado à extração de dados DFP de CIAS abertas disponibilizadas via CVM. Como projeto voltado a matéria de mercado de capitais. 
 
 ## ▶️ Executar no Google Colab
 
