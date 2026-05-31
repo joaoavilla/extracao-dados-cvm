@@ -5,8 +5,7 @@
   Clique no badge abaixo para abrir o notebook diretamente no Colab. Não é necessário instalar Python,
   bibliotecas ou ferramentas.
 
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com
-  /github/joaoavilla/extracao-dados-cvm/blob/main/notebooks/extracao_dados_cvm.ipynb)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joaoavilla/extracao-dados-cvm/blob/main/notebooks/extracao_dados_cvm.ipynb) 
 
   Execute cada célula em ordem com **Shift + Enter**. Ao final, um arquivo `.zip` com todos os CSVs será
   disponibilizado para download.
