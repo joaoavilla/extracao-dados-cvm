@@ -1,30 +1,54 @@
-# Extracao-dados-cvm
+## Como executar
 
-Repositório dedicado à extração e compilação dos dados DFP (Demonstrações Financeiras Padronizadas) das companhias abertas disponibilizadas pela CVM.
+  ### Opção 1 — Google Colab (recomendado, sem instalação)
 
-## Objetivo do Projeto
+  Clique no badge abaixo para abrir o notebook diretamente no Colab. Não é necessário instalar Python,
+  bibliotecas ou ferramentas.
 
-O propósito deste repositório é oferecer uma forma transparente, reprodutível e acessível de obter, tratar e analisar os demonstrativos financeiros completos das companhias abertas brasileiras, diretamente da fonte oficial (CVM), sem depender de:
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com
+  /github/joaoavilla/extracao-dados-cvm/blob/main/notebooks/extracao_dados_cvm.ipynb)
 
-  * plataformas pagas,
+  Execute cada célula em ordem com **Shift + Enter**. Ao final, um arquivo `.zip` com todos os CSVs será
+  disponibilizado para download.
 
-  * agregadores de dados privados,
+  ### Opção 2 — Localmente (Jupyter)
 
-  * APIs instáveis ou documentações incompletas.
+  Requer Python 3.9+ instalado.
 
-A proposta é permitir que qualquer usuário gere sua própria base histórica de demonstrativos contábeis (2010–2024), de forma padronizada e consistente, sem intermediários.
+  ```bash
+  # 1. Clonar o repositório
+  git clone https://github.com/joaoavilla/extracao-dados-cvm.git
+  cd extracao-dados-cvm
 
-## Como utilizar
+  # 2. Instalar dependências
+  pip install -r requirements.txt
 
-> * O notebook principal realiza automaticamente o download, leitura, tratamento e exportação dos demonstrativos DFP.
-> * A execução ocorre diretamente no Google Colab, em qualquer dispositivo, sem necessidade de instalar Python, bibliotecas ou ferramentas adicionais.
-> * Ao final, o usuário pode baixar um conjunto completo de arquivos .csv contendo os demonstrativos tratados (DRE, BPA, BPP, DFC_MI, DFC_MD).
-> * Os arquivos podem ser analisados no próprio Colab ou exportados para Excel, Google Sheets, R, Python ou qualquer outra ferramenta de análise.
+  # 3. Abrir o notebook
+  jupyter notebook notebooks/extracao_dados_cvm.ipynb
 
+  Os dados serão salvos em data_raw/ (ZIPs originais da CVM) e data_processed/ (CSVs tratados).
 
-## ▶️ Executar no Google Colab
+  ---
+  O que o notebook produz
 
-Clique abaixo para abrir o notebook automaticamente no Google Colab:
+  ┌──────────────────────┬──────────────────────────────────────────────────┐
+  │    Arquivo gerado    │                     Conteúdo                     │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ dre_2010_2024.csv    │ Demonstração do Resultado do Exercício           │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ bpa_2010_2024.csv    │ Balanço Patrimonial Ativo                        │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ bpp_2010_2024.csv    │ Balanço Patrimonial Passivo                      │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ dfc_mi_2010_2024.csv │ Demonstração do Fluxo de Caixa (Método Indireto) │
+  ├──────────────────────┼──────────────────────────────────────────────────┤
+  │ dfc_md_2010_2024.csv │ Demonstração do Fluxo de Caixa (Método Direto)   │
+  └──────────────────────┴──────────────────────────────────────────────────┘
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/joaoavilla/extracao-dados-cvm/blob/main/notebooks/extracao_dados_cvm.ipynb)
+  Cobertura: 730 companhias abertas, período 2010–2024.
+
+  ---
+  Fonte dos dados
+
+  Portal de Dados Abertos da CVM (https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/)
 
