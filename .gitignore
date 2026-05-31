@@ -1,0 +1,17 @@
+  # Dados gerados — nunca devem ir para o Git
+  data_raw/
+  data_processed/
+  *.zip
+  *.csv
+  *.parquet
+
+  # Python
+  __pycache__/
+  *.py[cod]
+  *.egg-info/
+  .venv/
+  venv/
+  env/
+
+  # Jupyter — outputs e checkpoints
+  .ipynb_checkpoints/
